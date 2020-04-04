@@ -3,9 +3,7 @@
     "name": "Be The Hero",
     "slug": "bethehero",
     "platforms": [
-      "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -23,6 +21,9 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.campanelli.betheheroomnistack"
     }
   }
 }
